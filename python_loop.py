@@ -8,11 +8,12 @@
 #     print(x,'\t',y, '\n')
 
 
-# for i in range(1, 5):       # 1 first ma 1 hunxa
-#     for j in range(i):      # 1 chalxa
-#         print(i, end=' ')   # 1 print  1 times
-#     print()                 # to new line
-    
+for i in range(1, 5):       # 1 first ma 1 hunxa
+    for j in range(i):      # 1 chalxa
+        print(i , end=' ')   # 1 print  1 times
+    print()                 # to new line
+
+
 i = 1
 while i < 10:
     j = i
@@ -22,6 +23,7 @@ while i < 10:
     print("")
     i = i + 1
 print("Complete!")
+
 
 # i = 1: Inner loop runs 9 times, printing 1 2 3 4 5 6 7 8 9
 # i = 2: Inner loop runs 8 times, printing 2 3 4 5 6 7 8 9
